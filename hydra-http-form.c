@@ -1479,6 +1479,7 @@ void usage_http_form(const char *service) {
          "and the condition string; seperate them too with colons:\n"
          " 1=                  401 error response is interpreted as user/pass wrong\n"
          " 2=                  302 page forward return codes identify a successful attempt\n"
+         " M=                  for attacking POST forms in multipart format\n"
          " (c|C)=/page/uri     to define a different page to gather initial "
          "cookies from\n"
          " (g|G)=              skip pre-requests - only use this when no pre-cookies are required\n"
